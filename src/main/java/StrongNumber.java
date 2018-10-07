@@ -1,11 +1,11 @@
-public class silnia {
+public class StrongNumber {
     public static void main(String[] args) {
-        System.out.println(factorial(9));
+        System.out.println(strongFromNumber(9));
 
         }
 
 
-    private static int factorial(int number) {
+    private static int strongFromNumber(int number) {
         int wynik = 1;
         for (int i = 1; i < number ; i++) {
 

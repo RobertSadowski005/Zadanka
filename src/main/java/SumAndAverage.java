@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class readFromInputAndSum {
+public class SumAndAverage {
     public static void main(String[] args) {
-        System.out.println(sumOfInpuNumbers());
+        System.out.println(sumAndAverageFromInput());
     }
 
-    private static int sumOfInpuNumbers() {
+    private static int sumAndAverageFromInput() {
         int suma = 0;
         while (1 !=0) {
             System.out.println("Enter an integer:");
