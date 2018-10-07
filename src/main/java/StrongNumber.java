@@ -10,12 +10,12 @@ public class StrongNumber {
 
 
     private static int strongFromNumber(int number) {
-        int wynik = 1;
+        int returnedValue = 1;
         for (int i = 1; i < number ; i++) {
 
-            wynik *= i;
+            returnedValue *= i;
         }
-        return wynik;
+        return returnedValue;
     }
 
 }

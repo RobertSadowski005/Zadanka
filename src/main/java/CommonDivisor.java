@@ -8,12 +8,12 @@ public class CommonDivisor {
     }
 
     private static int searchingForCommonDivisor(int number) {
-        int wynik = 0;
+        int returnedValue = 0;
         for (int i =1; i <= number; i++) {
             if (number%i==0) {
-                wynik +=i;
+                returnedValue +=i;
             }
         }
-        return wynik;
+        return returnedValue;
     }
 }

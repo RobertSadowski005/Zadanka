@@ -8,15 +8,15 @@ public class SumAndAverage {
 
     private static int sumAndAverageFromInput() {
         System.out.println("Enter an integer:");
-        int suma = 0;
+        int returnedValue = 0;
         int number = 0;
         do {
             Scanner keyboard = new Scanner(System.in);
             number = keyboard.nextInt();
-            suma += number;
+            returnedValue += number;
         }
         while (number != 0);
-        return suma;
+        return returnedValue;
     }
 }
 
