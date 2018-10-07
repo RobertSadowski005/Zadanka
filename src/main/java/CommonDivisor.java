@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class CommonDivisor {
     public static void main(String[] args) {
-        System.out.println(searchingForCommonDivisor(9));
+        Scanner keyboard = new Scanner(System.in);
+        int number = keyboard.nextInt();
+        System.out.println(searchingForCommonDivisor(number));
     }
 
     private static int searchingForCommonDivisor(int number) {

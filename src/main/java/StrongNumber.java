@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class StrongNumber {
     public static void main(String[] args) {
-        System.out.println(strongFromNumber(9));
+        Scanner keyboard = new Scanner(System.in);
+        int number = keyboard.nextInt();
+        System.out.println(strongFromNumber(number));
 
         }
 

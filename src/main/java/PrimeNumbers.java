@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class PrimeNumbers {
     public static void main(String[] args) {
-        System.out.println(isPrimeNumber(20));
+        Scanner keyboard = new Scanner(System.in);
+        int number = keyboard.nextInt();
+        System.out.println(isPrimeNumber(number));
     }
 
     private static boolean isPrimeNumber(int number) {
