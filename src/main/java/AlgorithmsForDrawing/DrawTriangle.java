@@ -12,19 +12,16 @@ public class DrawTriangle {
 
     private static void drawingTriange(int number) {
 
-        for (int i = 0; i < number; i++){
+        for (int i = 0; i < number; i++) {
             System.out.println();
-            for(int j = 0; j < number; j++){
+            for (int j = 0; j < number; j++) {
 //                System.out.print("");
-                if (i<=j) {
+                if (i <= j) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
-
             }
-
-
         }
     }
 }

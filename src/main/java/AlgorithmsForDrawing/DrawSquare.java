@@ -12,19 +12,16 @@ public class DrawSquare {
 
     private static void drawingTriange(int number) {
 
-        for (int i = 0; i < number; i++){
+        for (int i = 0; i < number; i++) {
             System.out.println();
-            for(int j = 0; j < number; j++){
-//                System.out.print("");
-                if (i== 0 || j == number-1 || i == number -1 || j == 0) {
-                    System.out.print("*");
+            for (int j = 0; j < number; j++) {
+
+                if (i == 0 || j == number - 1 || i == number - 1 || j == 0) {
+                    System.out.print(" *");
                 } else {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
-
             }
-
-
         }
     }
 }
