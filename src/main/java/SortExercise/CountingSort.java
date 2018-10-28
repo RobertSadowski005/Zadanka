@@ -25,6 +25,10 @@ public class CountingSort {
 
         int[] cardinalities = new int[max+1];
 
+        for ( int i = 0; i < numbers.length; i++ ) {
+            cardinalities[numbers[i]]++;
+        }
+
     }
 
 
